@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>js实现广告特效</title>
+    <meta name="description" content="js实现广告特效" />
+    <meta name="keywords" content="js,广告,特效" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <!-- js实现顶部伸缩式广告特效 -->
+    <div id="ad">
+      <img id="adcon" src="img/7.jpg" width="1200" height="300" />
+      <img id="adcur" src="img/7.jpg" width="1200" height="68" />
+      <span id="close">X</span>
+    </div>
+    <div class="content"><img src="img/ad.jpg" alt="背景图" /></div>
+    <!-- js实现右下角伸缩式广告特效 -->
+    <div class="rightAd" id="adBox">
+      <div class="pic" id="showPic">
+        <a href="#"><img src="img/6.jpg" alt="广告图"/></a>
+        <a href="javascript:void(0);" id="rightCloseButton">X</a>
+      </div>
+    </div>
+    <div class="clickMe" id="clickMe">
+      想看一眼广告吗？
+    </div>
+    <script src="js/index.js" async defer></script>
+  </body>
+</html>
